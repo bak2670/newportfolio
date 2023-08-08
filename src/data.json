@@ -1,0 +1,40 @@
+    {
+        "projectlist": [
+          {
+            "id":0,
+            "company":"스타트원",
+            "companydate":"2021.11 ~ 2022.08",
+            "companycontent":"B2B 웹 에이전시 회사로 여러 업체들과 협업을 경험해볼 수 있었다.",
+            "project":[
+                {
+                    "projectid":0,
+                    "projectname":"한국선급 e-Ship",
+                    "projectdate":"2022-03 ~ 04",
+                    "projectcontent":[
+                        "관리자 페이지 e-Ship 퍼블리싱",
+                        "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
+                        "HTML CSS jquery를 사용"
+                    ]
+                }
+            ]
+          },
+          {
+            "id":0,
+            "company":"스타트원",
+            "companydate":"2021.11 ~ 2022.08",
+            "companycontent":"B2B 웹 에이전시 회사로 여러 업체들과 협업을 경험해볼 수 있었다.",
+            "project":[
+                {
+                    "projectid":0,
+                    "projectname":"한국선급 e-Ship",
+                    "projectdate":"2022-03 ~ 04",
+                    "projectcontent":[
+                        "관리자 페이지 e-Ship 퍼블리싱",
+                        "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
+                        "HTML CSS jquery를 사용"
+                    ]
+                }
+            ]
+          }
+        ]
+      }
