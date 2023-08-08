@@ -1,6 +1,8 @@
 import logo from '../logo.svg';
 import * as Concact from "../style/Sintro"
 import * as Common from "../style/Common"
+import logo2 from '../Image/profile.jpg';
+
 function Contact(){
     return(
       <Common.Section>
@@ -9,7 +11,7 @@ function Contact(){
         </Concact.Greetings>
         <Concact.IntroContent>
           <Concact.IntroImage>
-              <img src={logo}/>
+              <img src={logo2}/>
             </Concact.IntroImage>
             <Concact.Contact>
               <Concact.ContactTitle>

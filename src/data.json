@@ -6,8 +6,18 @@
             "companydate":"2021.11 ~ 2022.08",
             "companycontent":"B2B 웹 에이전시 회사로 여러 업체들과 협업을 경험해볼 수 있었다.",
             "project":[
+              {
+                "projectid":0,
+                "projectname":"굿모닝아이텍 리뉴얼",
+                "projectdate":"2021-12 ~ 2022.08",
+                "projectcontent":[
+                    "자회사 홈페이지 리뉴얼",
+                    "작업기간 기존 워드프레스 기반 홈페이지 유지보수",
+                    "HTML CSS jquery를 사용"
+                ]
+              },
                 {
-                    "projectid":0,
+                    "projectid":1,
                     "projectname":"한국선급 e-Ship",
                     "projectdate":"2022-03 ~ 04",
                     "projectcontent":[
@@ -15,25 +25,84 @@
                         "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
                         "HTML CSS jquery를 사용"
                     ]
+                },
+                {
+                  "projectid":2,
+                  "projectname":"기아 SWC 홈페이지 리뉴얼",
+                  "projectdate":"2022-04 ~ 05",
+                  "projectcontent":[
+                      "기아 SWC 홈페이지 수정 및 추가 작업",
+                      "외부 디자인회사와 프리렌서 백엔드 개발자와 협업",
+                      "HTML CSS jquery를 사용"
+                  ]
+                },
+                {
+                  "projectid":3,
+                  "projectname":"Sk hynix 정보조사시스템 구축",
+                  "projectdate":"2022-06 ~ 08",
+                  "projectcontent":[
+                      "Sk hynix 서버 상태 관제 및 조작 가능 프로그램 제작",
+                      "HTML CSS jquery chart.js를 사용"
+                  ]
                 }
+
             ]
           },
           {
-            "id":0,
-            "company":"스타트원",
-            "companydate":"2021.11 ~ 2022.08",
-            "companycontent":"B2B 웹 에이전시 회사로 여러 업체들과 협업을 경험해볼 수 있었다.",
+            "id":1,
+            "company":"서우엠에스",
+            "companydate":"2022.09 ~ 2023.02",
+            "companycontent":"사육장에 설치된 카메라 이미지를 토대로 가공하고 선별된 데이터를 각 농장에 제공하는 스마트팜 기업",
             "project":[
                 {
                     "projectid":0,
-                    "projectname":"한국선급 e-Ship",
+                    "projectname":"해충선별 프로그램",
                     "projectdate":"2022-03 ~ 04",
                     "projectcontent":[
-                        "관리자 페이지 e-Ship 퍼블리싱",
-                        "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
-                        "HTML CSS jquery를 사용"
+                        "현장에 설치된 카메라의 이미지를 통해 어떤 지역과 기후 조건에 해충들이 분포되어 있는지 연구원들이 파악하고 각 종류 및 특징 별로 분류하여 데이터를 생성하는 웹사이트",
+                        "React Redux-tookit TypeScript Style-Component로 개발"
                     ]
-                }
+                },
+                {
+                  "projectid":0,
+                  "projectname":"곤충선별 프로그램",
+                  "projectdate":"2022-03 ~ 04",
+                  "projectcontent":[
+                      "관리자 페이지 e-Ship 퍼블리싱",
+                      "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
+                      "React Redux-tookit TypeScript scss로 개발"
+                  ]
+              },
+              {
+                "projectid":0,
+                "projectname":"IFactroyFarm",
+                "projectdate":"2022-03 ~ 04",
+                "projectcontent":[
+                    "관리자 페이지 e-Ship 퍼블리싱",
+                    "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
+                    "HTML CSS jquery를 사용"
+                ]
+            },
+            {
+              "projectid":0,
+              "projectname":"FarmIn",
+              "projectdate":"2022-03 ~ 04",
+              "projectcontent":[
+                  "관리자 페이지 e-Ship 퍼블리싱",
+                  "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
+                  "HTML CSS jquery를 사용"
+              ]
+          },
+          {
+            "projectid":0,
+            "projectname":"8비 공군 비행장",
+            "projectdate":"2022-03 ~ 04",
+            "projectcontent":[
+                "관리자 페이지 e-Ship 퍼블리싱",
+                "외부 디자인 회사와 협업 이후 다음 프로젝트 제안 확보",
+                "HTML CSS jquery를 사용"
+            ]
+        }
             ]
           }
         ]

@@ -4,6 +4,12 @@ import styled from 'styled-components';
 export const ExpressItem = styled.div`
     width: 100%;
     margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+
+    &:last-child{
+        border-bottom: none;
+    }
 
 `
 export const Company = styled.div`
@@ -13,7 +19,7 @@ export const Company = styled.div`
     }
     & .company-date{
         font-size: 0.58em;
-        color: #eee;
+        color: gray;
         margin-left: 5px;
     }
     & .company-content{
@@ -28,7 +34,8 @@ export const Express = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 10px;
+    margin-top: 20px;
+    
 
 `
 
