@@ -5,12 +5,14 @@ export const Section = styled.div`
     margin-bottom: 10px;
     padding: 20px 0px;
 
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding-top: 80px;
 
-    @media all and (min-width:768px) {
-    min-width: 768px;
+    @media all and (max-width:768px) {
+    /* min-width: 768px; */
+    width: 80%;
+
 
 }
 
@@ -24,7 +26,6 @@ export const Section = styled.div`
 
 }
 & .text{
-    color: blue;
     font-size: 1em;
     padding: 10px 0px;
 }

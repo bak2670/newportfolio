@@ -7,7 +7,7 @@ function Contact(){
     return(
       <Common.Section>
         <Concact.Greetings>
-            <p>프론트엔드 개발자 백승철입니다.</p>
+            {/* <p>커뮤니케이션이 원활한 개발자 백승철입니다.</p> */}
         </Concact.Greetings>
         <Concact.IntroContent>
           <Concact.IntroImage>

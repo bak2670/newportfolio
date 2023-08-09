@@ -12,26 +12,25 @@ import styled from 'styled-components';
 // `
 
 export const Greetings = styled.div`
-    font-size: 2em;
+    font-size: 0.88em;
 `
 
 export const IntroContent = styled.div`
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border:1px solid gold;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /* border:1px solid gold; */
 `
 
 export const IntroImage = styled.div`
-    width: 50%;
-    border:1px solid deeppink;
+    /* border:1px solid deeppink; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     & img{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 70%;
         border:1px solid black;
         object-fit: cover;
@@ -42,7 +41,8 @@ export const IntroImage = styled.div`
 
 export const Contact = styled.div`
     width: 50%;
-    border:1px solid skyblue;
+    /* border:1px solid skyblue; */
+    margin-left: 20px;
 `
 
 export const ContactTitle = styled.div`

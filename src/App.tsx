@@ -6,7 +6,7 @@ import Intro from "./component/Intro"
 import Career from "./component/Career"
 import Skill from "./component/Skill"
 import Project from "./component/Project"
-import OtherProject from "./component/OtherProject"
+import OtherExpress from "./component/OtherExpress"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       {/* <Career/> */}
       <Skill/>
       <Project/>
-      <OtherProject/>
+      <OtherExpress/>
 
 
     </div>

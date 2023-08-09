@@ -52,4 +52,5 @@ export const ExpressName = styled.div`
 export const ExpressContent = styled.div`
     width: 70%;
     font-size: 0.88em;
+    padding-left: 5%;
 `
