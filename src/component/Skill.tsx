@@ -7,7 +7,8 @@ function Skill(){
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin-top: 5px;
+        flex-wrap: wrap;
+        /* margin-top: 5px; */
 
         &.back{color:blue}
         &.front{color:green}
@@ -18,10 +19,13 @@ function Skill(){
         background-color: #eee;
         margin-left: 5px;
         font-size: 0.77em;
+        margin-top: 5px;
 
         &:first-child{
             margin-left: 0px;
         }
+
+
 
         
         
