@@ -27,7 +27,7 @@ function Contact(){
               </Concact.ContactItem>
               <Concact.ContactItem>
                 <p>Phone : </p>
-                <p>010-2670-5829</p>
+                <p>010-2670-58291</p>
               </Concact.ContactItem>
             </Concact.Contact>
           </Concact.IntroContent>
