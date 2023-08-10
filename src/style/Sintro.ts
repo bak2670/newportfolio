@@ -33,7 +33,6 @@ export const IntroImage = styled.div`
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        border:1px solid black;
         object-fit: cover;
     }
     @media all and (max-width:768px) {
@@ -41,22 +40,21 @@ export const IntroImage = styled.div`
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        border:1px solid black;
         object-fit: cover;
     }
-    @media all and (max-width:600px) {
-        width: 150px;
-        height: 150px;
-        border-radius: 70%;
-        border:1px solid black;
+    @media all and (max-width:400px) {
+        & img{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
         object-fit: cover;
+    }
     }
 }
     
 `
 
 export const Contact = styled.div`
-    width: 50%;
     /* border:1px solid skyblue; */
     margin-left: 20px;
 `
@@ -96,6 +94,9 @@ export const ContactItem = styled.div`
     }
     @media all and (max-width:600px) {
         font-size: 0.70em;
+    }
+    @media all and (max-width:360px) {
+        font-size: 0.66em;
     }
 
 `
