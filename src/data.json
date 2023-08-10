@@ -73,7 +73,7 @@
               "현상에 설치된 카메라로 부터 데이터 수집",
               "수집된 데이터를 웹사이트 상에서 분류",
               "분류한 데이터를 chart.js로 시각적으로 표현",
-              "React Redux-tookit TypeScript scss 사용"
+              "React contextApi TypeScript scss 사용"
             ]
         },
         {
