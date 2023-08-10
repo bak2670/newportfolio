@@ -5,7 +5,16 @@ export const OtherExpressItem = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin-top: 20px;
+    .name{
+        font-size: 0.88em;
+        width: 100%;
+        text-align: left;
+        margin-top: 3px;
+        font-weight:bold;
+        margin-bottom: 10px;
+    }
 `
 
 export const ItemName = styled.div`
@@ -14,15 +23,19 @@ export const ItemName = styled.div`
         width: 100%;
     }
     & p{
-        font-size: 0.88em;
-        text-align: center;
-        margin-top: 3px;
-        font-weight:bold;
+
     }
+    @media all and (max-width:768px) {
+    width: 100%;
+}
 `
 
 export const ItemContent = styled.div`
     width: 50%;
     padding-left: 20px;
+    @media all and (max-width:768px) {
+    width: 100%;
+    padding-left: 0px;
 
+}
 `

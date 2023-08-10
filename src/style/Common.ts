@@ -13,7 +13,6 @@ export const Section = styled.div`
     /* min-width: 768px; */
     width: 80%;
 
-
 }
 
 & .title{

@@ -35,7 +35,15 @@ export const IntroImage = styled.div`
         border:1px solid black;
         object-fit: cover;
     }
-
+    @media all and (max-width:768px) {
+        & img{
+        width: 150px;
+        height: 150px;
+        border-radius: 70%;
+        border:1px solid black;
+        object-fit: cover;
+    }
+}
     
 `
 
@@ -72,6 +80,10 @@ export const ContactItem = styled.div`
     & span:hover{
         border-bottom:0.05em solid black; opacity: 1;
 
+    }
+
+    @media all and (max-width:768px) {
+        font-size: 0.77em;
     }
 
 `
