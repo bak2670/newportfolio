@@ -28,15 +28,23 @@ export const IntroImage = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
     & img{
         width: 200px;
         height: 200px;
-        border-radius: 70%;
+        border-radius: 50%;
         border:1px solid black;
         object-fit: cover;
     }
     @media all and (max-width:768px) {
         & img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border:1px solid black;
+        object-fit: cover;
+    }
+    @media all and (max-width:600px) {
         width: 150px;
         height: 150px;
         border-radius: 70%;
@@ -63,6 +71,7 @@ export const ContactItem = styled.div`
     align-items: center;
     justify-content:flex-start;
     margin-top: 5px;
+    
 
     & p:last-child{
         margin-left: 3px;
@@ -84,6 +93,9 @@ export const ContactItem = styled.div`
 
     @media all and (max-width:768px) {
         font-size: 0.77em;
+    }
+    @media all and (max-width:600px) {
+        font-size: 0.70em;
     }
 
 `

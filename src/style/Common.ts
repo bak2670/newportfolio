@@ -14,6 +14,11 @@ export const Section = styled.div`
     width: 80%;
 
 }
+@media all and (max-width:600px) {
+    /* min-width: 768px; */
+    width: 90%;
+
+}
 
 & .title{
     color: red;
