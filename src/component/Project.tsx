@@ -67,8 +67,6 @@ const Project:React.FC= ()=>{
                                 )
                             })
                         }
-
-        
                     </Express.ExpressItem>
                     )
                 })
