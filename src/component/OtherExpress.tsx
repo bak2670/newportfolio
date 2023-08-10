@@ -2,6 +2,7 @@ import * as Common from "../style/Common"
 import * as Other from "../style/OtherExpress"
 import animal from "../Image/animal.png"
 import tour from "../Image/tour.png"
+import mygpt from "../Image/mygpt.png"
 import logo from './logo.svg';
 
 
@@ -13,7 +14,7 @@ function OtherExpress(){
 
             <Other.OtherExpressItem>
             <Other.ItemName>
-                <a href="https://silly-raman-a73389.netlify.app"><img src={animal} alt="dd"/></a>
+                <a href="https://www.youtube.com/watch?v=qiAc4jwMabk"><img src={mygpt} alt="dd"/></a>
                 <p>나만의 GPT</p>
             
             </Other.ItemName>
@@ -28,7 +29,8 @@ function OtherExpress(){
 
         <Other.OtherExpressItem>
             <Other.ItemName>
-                <a href="https://silly-raman-a73389.netlify.app"><img src={animal} alt="dd"/></a>
+                <a href="https://beackanimaldatingtype.netlify.app/"><img src={animal} alt="dd"/></a>
+                
                 <p>12지신 연애유형</p>
             
             </Other.ItemName>
@@ -42,7 +44,7 @@ function OtherExpress(){
 
         <Other.OtherExpressItem>
             <Other.ItemName>
-                <a href="https://beackanimaldatingtype.netlify.app/"><img src={tour} alt="dd"/></a>
+                <a href="https://silly-raman-a73389.netlify.app"><img src={tour} alt="dd"/></a>
                 <p>투어리스트</p>
 
             </Other.ItemName>

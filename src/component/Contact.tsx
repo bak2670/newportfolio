@@ -23,7 +23,7 @@ function Contact(){
               </Concact.ContactItem>
               <Concact.ContactItem>
                 <p>Git : </p>
-                <p><a href="https://github.com/bak2670">https://github.com/bak2670</a></p>
+                <p><a href="https://github.com/bak2670"><span className='link'>https://github.com/bak2670</span></a></p>
               </Concact.ContactItem>
               <Concact.ContactItem>
                 <p>Phone : </p>

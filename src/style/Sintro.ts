@@ -66,4 +66,12 @@ export const ContactItem = styled.div`
         color: black;
     }
 
+    & span{
+        border-bottom:0.05em solid rgba(55,53,47,0.4);opacity:0.7
+    }
+    & span:hover{
+        border-bottom:0.05em solid black; opacity: 1;
+
+    }
+
 `
