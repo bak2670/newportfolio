@@ -5,7 +5,7 @@ export const Section = styled.div`
     margin-bottom: 10px;
     padding: 20px 0px;
 
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     padding-top: 80px;
 
