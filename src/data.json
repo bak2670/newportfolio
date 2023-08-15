@@ -29,9 +29,10 @@
             "projectname":"기아 SWC 경진대회 사이트 제작",
             "projectdate":"2022.04 ~ 05",
             "projectcontent":[
-                "기아 SWC 홈페이지 수정 및 추가 작업",
+                "기아 SWC 홈페이지",
+                "사용자 친화적으로 개선된 UI에 대한 개발 니즈 완수",
                 "외부 디자인회사와 프리렌서 백엔드 개발자와 협업",
-                "HTML CSS jquery를 사용"
+                "slick-silder , "
             ]
           },
           {
