@@ -4,15 +4,25 @@ import animal from "../Image/animal.png"
 import tour from "../Image/tour.png"
 import mygpt from "../Image/mygpt.png"
 import logo from './logo.svg';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css'
+import Slider from "react-slick"
 
 
 function OtherExpress() {
+        const settings = {
+            dots:true,
+            Infinity:true,
+            speed:500,
+            centerPadding: "100px",
+            slidesToShow: 1,
+        }
 
     return (
         <Common.Section>
             <p className='title'>OtherProject</p>
 
-            <Other.OtherExpressItem>
+            {/* <Other.OtherExpressItem>
                 <p className="name">나만의 GPT</p>
                 <Other.ItemName>
                     <a href="https://www.youtube.com/watch?v=qiAc4jwMabk"><img src={mygpt} alt="dd" /></a>
@@ -51,7 +61,23 @@ function OtherExpress() {
 
                     </p>
                 </Other.ItemContent>
-            </Other.OtherExpressItem>
+            </Other.OtherExpressItem> */}
+
+            <Other.Slider className="carousel">
+                <Slider {...settings}>
+                    <Other.SlideItem>
+                        <a href="https://www.youtube.com/watch?v=qiAc4jwMabk"><img src={mygpt} alt="dd" /></a>
+                    </Other.SlideItem>
+                    <Other.SlideItem>
+                        <a href="https://beackanimaldatingtype.netlify.app/"><img src={animal} alt="dd" /></a>
+                    </Other.SlideItem>
+                    <Other.SlideItem>
+                        <a href="https://silly-raman-a73389.netlify.app"><img src={tour} alt="dd" /></a>
+                    </Other.SlideItem>
+
+
+                </Slider>
+            </Other.Slider>
 
         </Common.Section>
     )

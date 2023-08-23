@@ -38,4 +38,19 @@ export const ItemContent = styled.div`
     padding-left: 0px;
 
 }
+
+`
+
+export const Slider = styled.div`
+width: 100%;
+margin: 50px 0;
+`
+
+export const SlideItem = styled.div`
+    & a {
+        width: 100%;
+        & img{
+            width: 100%
+        }
+    }
 `
